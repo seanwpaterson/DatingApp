@@ -1,3 +1,12 @@
 .dropdown-toggle, .dropdown-item {
     cursor: pointer;
 }
+
+.dropdown-menu a {
+    color: #333;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.4);
+}
